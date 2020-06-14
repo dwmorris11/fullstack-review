@@ -1,0 +1,24 @@
+.entry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: arial;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: fit-content;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: arial;
+}
+
